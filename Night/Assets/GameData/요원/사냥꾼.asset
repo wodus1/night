@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6faa34c2cea7a734480a96c0e30d90ec, type: 3}
+  m_Name: "\uC0AC\uB0E5\uAFBC"
+  m_EditorClassIdentifier: 
+  id: 1
+  displayName: "\uC0AC\uB0E5\uAFBC"
+  jobTemplate: {fileID: 11400000, guid: 427cd9561b05c624d8fae96d783a8e4d, type: 2}
+  maxHP: 80
+  ATK: 30
+  DEF: 5
+  attackTerm: 1
+  TPRecoverPersec: 1
+  attackRange: 6
