@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 1
   displayName: "\uC0AC\uB0E5\uAFBC"
+  prefab: {fileID: 7784666835163158516, guid: bf5226ab0ebfe1d4fb69f026cc01c4f5, type: 3}
   jobTemplate: {fileID: 11400000, guid: 427cd9561b05c624d8fae96d783a8e4d, type: 2}
   maxHP: 80
   ATK: 30
   DEF: 5
   attackTerm: 1
   TPRecoverPersec: 1
-  attackRange: 6
+  attackRange: 4

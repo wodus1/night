@@ -1,9 +1,8 @@
-using Night.Core;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Waknights.Core
+namespace Night.Core
 {
     public class AgentSystem : MonoBehaviour, ISubSystem
     {
@@ -18,12 +17,12 @@ namespace Waknights.Core
             _agents.Clear();
         }
 
-        public void AddAgent(AgentUnit agent)
+        internal void AddAgent(AgentUnit agent)
         {
             _agents.Add(agent);
         }
 
-        public void RemoveAgent(AgentUnit agent)
+        internal void RemoveAgent(AgentUnit agent)
         {
             _agents.Remove(agent);
         }
@@ -64,6 +63,11 @@ namespace Waknights.Core
             }
 
             return _agents.Count > 0 ? _agents[0] : null;
+        }
+
+        internal int agentsCount()
+        {
+            return _agents.Count;
         }
     }
 }

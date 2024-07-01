@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Waknights.Core
+namespace Night.Core
 {
     public interface ISubSystem
     {

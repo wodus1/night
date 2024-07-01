@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: "\uAE30\uC0AC"
   m_EditorClassIdentifier: 
   id: 0
-  displayName: "\uC6A9\uBCD1"
+  displayName: "\uAE30\uC0AC"
+  prefab: {fileID: 1566238217577051864, guid: 30ea6fe99db21914f8b3f40ac0070cff, type: 3}
   jobTemplate: {fileID: 11400000, guid: 4f63bc2702571e64d997cf095c5ebcee, type: 2}
   maxHP: 100
   ATK: 20
   DEF: 10
   attackTerm: 1
   TPRecoverPersec: 1
-  attackRange: 2
+  attackRange: 1.5

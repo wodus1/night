@@ -11,6 +11,7 @@ namespace Night.Core
 
         [Header("기본정보")]
         public string displayName;
+        public GameObject prefab;
         [Header("직업")]
         public JobTemplate jobTemplate;
         [Header("전투")]

@@ -12,7 +12,6 @@ namespace Night.Core
         protected override void Awake()
         {
             base.Awake();
-            _moveAbility.Initialize(this);
         }
 
         internal void Initialize(AgentData agent)
