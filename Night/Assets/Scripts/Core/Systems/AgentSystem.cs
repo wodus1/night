@@ -65,7 +65,7 @@ namespace Night.Core
             return _agents.Count > 0 ? _agents[0] : null;
         }
 
-        internal int agentsCount()
+        internal int AgentsCount()
         {
             return _agents.Count;
         }

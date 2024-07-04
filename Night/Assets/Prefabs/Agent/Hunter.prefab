@@ -1694,7 +1694,7 @@ GameObject:
   - component: {fileID: 6577605780948103080}
   - component: {fileID: 6369334275272518187}
   - component: {fileID: 3707257036019134475}
-  - component: {fileID: 1852946594035365609}
+  - component: {fileID: 6799969424678874614}
   - component: {fileID: 1783086988265815953}
   - component: {fileID: 7944995442399864182}
   m_Layer: 0
@@ -1718,7 +1718,7 @@ Transform:
   m_Children:
   - {fileID: 6388647231625452061}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &6577605780948103080
 Rigidbody:
@@ -1781,7 +1781,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _projectilePoint: {fileID: 0}
---- !u!114 &1852946594035365609
+--- !u!114 &6799969424678874614
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1790,7 +1790,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7784666835163158516}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4288e5d4d2df164c996c6ea9fc7df5d, type: 3}
+  m_Script: {fileID: 11500000, guid: a80bc106c3c67744c962ff0f25dca477, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1783086988265815953

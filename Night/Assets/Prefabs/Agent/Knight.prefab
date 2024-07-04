@@ -658,7 +658,7 @@ GameObject:
   - component: {fileID: 6795173613336314053}
   - component: {fileID: 657582165264602646}
   - component: {fileID: 8820765408935483654}
-  - component: {fileID: 8424816333646436203}
+  - component: {fileID: 6856459920010207512}
   - component: {fileID: 2780369963106291214}
   - component: {fileID: 1402521217160183660}
   m_Layer: 0
@@ -682,7 +682,7 @@ Transform:
   m_Children:
   - {fileID: 5645328719227950754}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &6795173613336314053
 Rigidbody:
@@ -745,7 +745,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _projectilePoint: {fileID: 0}
---- !u!114 &8424816333646436203
+--- !u!114 &6856459920010207512
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -754,10 +754,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1566238217577051864}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4288e5d4d2df164c996c6ea9fc7df5d, type: 3}
+  m_Script: {fileID: 11500000, guid: a80bc106c3c67744c962ff0f25dca477, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _navMeshAgent: {fileID: 1402521217160183660}
 --- !u!114 &2780369963106291214
 MonoBehaviour:
   m_ObjectHideFlags: 0

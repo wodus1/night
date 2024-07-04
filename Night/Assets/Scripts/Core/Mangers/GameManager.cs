@@ -9,12 +9,14 @@ namespace Night.Core
     {
         public static GameManager Instance { get; private set; }
         
-        [SerializeField ] private List<CharacterTemplate> _agentTemplates = new List<CharacterTemplate>();
+        [SerializeField ] private List<AgentTemplate> _agentTemplates = new List<AgentTemplate>();
+        [SerializeField] private List<EnemyTemplate> _enemyTemplates = new List<EnemyTemplate>();
         private List<AgentData> _agentDatas = new List<AgentData>();
+        private List<EnemyData> _enemyDatas = new List<EnemyData>();
         private Dictionary<Type, ISubSystem> _subSystems = new Dictionary<Type, ISubSystem>();
 
         public List<AgentData> AgentDatas => _agentDatas;
-        
+        public List<EnemyData> EnemyDatas => _enemyDatas;
         private void Awake()
         {
             if(Instance == null)
@@ -46,10 +48,19 @@ namespace Night.Core
                 _agentDatas.Add(new AgentData(data));
             }
 
+            foreach (var data in _enemyTemplates)
+            {
+                _enemyDatas.Add(new EnemyData(data));
+            }
+
             UnitCreateSystem unitCreateSystem = GetSubSystem<UnitCreateSystem>();
             foreach(var data in _agentDatas)
             {
                 unitCreateSystem.CreateAgent(data);
+            }
+            foreach (var data in _enemyDatas)
+            {
+                unitCreateSystem.CreateEnemy(data);
             }
         }
 

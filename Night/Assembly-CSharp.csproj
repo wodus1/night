@@ -59,17 +59,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Core\Systems\UnitCreateSystem.cs" />
-    <Compile Include="Assets\Scripts\Core\Templates\CharacterTemplate.cs" />
+    <Compile Include="Assets\Scripts\Core\Unit\EnemyUnit.cs" />
+    <Compile Include="Assets\Scripts\Core\Systems\EnemySystem.cs" />
     <Compile Include="Assets\Scripts\Core\Unit\Unit.cs" />
+    <Compile Include="Assets\Scripts\Core\Data\EnemyData.cs" />
     <Compile Include="Assets\Scripts\Core\Systems\ISubSystem.cs" />
+    <Compile Include="Assets\Scripts\Core\Templates\EnemyTemplate.cs" />
     <Compile Include="Assets\Scripts\Core\Unit\Ability\AnimationController.cs" />
     <Compile Include="Assets\Scripts\Core\Systems\AgentSystem.cs" />
     <Compile Include="Assets\Scripts\Core\Templates\JobTemplate.cs" />
+    <Compile Include="Assets\Scripts\Core\Templates\AgentTemplate.cs" />
     <Compile Include="Assets\Scripts\Core\Unit\AgentUnit.cs" />
+    <Compile Include="Assets\Scripts\Core\Unit\Ability\EnemyMoveAbility.cs" />
     <Compile Include="Assets\Scripts\Core\Unit\Ability\MoveAbility.cs" />
     <Compile Include="Assets\Scripts\Core\Common\Enums.cs" />
     <Compile Include="Assets\Scripts\Core\Data\AgentData.cs" />
     <Compile Include="Assets\Scripts\Core\Mangers\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Core\Unit\Ability\AgentMoveAbility.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -6,21 +6,21 @@ namespace Night.Core
 {
     public class AgentData
     {
-        public CharacterTemplate template;
-        public int normalATK { get; private set; }
-        public int normalDEF { get; private set; }
-        public float normalAttackTerm { get; private set; }
-        public float normalTPRecoverPersec { get; private set; }
-        public float normalAttackRange { get; private set; }
+        public AgentTemplate template;
+        public int NormalATK { get; private set; }
+        public int NormalDEF { get; private set; }
+        public float NormalAttackTerm { get; private set; }
+        public float NormalTPRecoverPersec { get; private set; }
+        public float NormalAttackRange { get; private set; }
         
-        public AgentData(CharacterTemplate template)
+        public AgentData(AgentTemplate template)
         {
             this.template = template;
-            normalATK = template.ATK;
-            normalDEF = template.DEF;
-            normalAttackTerm = template.attackTerm;
-            normalTPRecoverPersec = template.TPRecoverPersec;
-            normalAttackRange = template.attackRange;
+            NormalATK = template.ATK;
+            NormalDEF = template.DEF;
+            NormalAttackTerm = template.attackTerm;
+            NormalTPRecoverPersec = template.TPRecoverPersec;
+            NormalAttackRange = template.attackRange;
         }
     }
 }
